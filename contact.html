@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="nl">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content=" ">
+        <meta name="keywords" content=" ">
+        <meta name="author" content="HobbyLion">
+        <link rel="stylesheet" type="text/css" href="css/les15.css">
+        <title>contact</title>
+    </head>
+    <body>
+        <header class="nav">
+                <ul>
+                    <li>
+                        <a href="index.html">home</a>
+                    </li>
+                    <li>
+                        <a href="mijncv.html">mijn cv</a>
+                    </li>
+                    <li>
+                        <a href="contact.html">contact</a>
+                    </li>
+               </ul>
+
+         </header>
+         <div class="tekst">
+            <form id="contactform" method="post" action="https://formspree.io/f/xgonkono">
+               <fieldset>
+                    <legend>Neem contact met op</legend><br>
+                    <table class="formulier">                 
+                        <tr>
+                            <td id="eerste">
+                                <label for="voornaam"><b>Voornaam:</b></label>
+                            </td>
+                            <td>
+                                <input type="text" name="voornaam" placeholder="uw voornaam">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td id="eerste">
+                                <label for="achternaam"><b>Achternaam:</b></label>
+                            </td>
+                            <td>
+                                <input type="text" name="achternaam" placeholder="uw achternaam">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td id="eerste">
+                                <label for="email"><b>Email:</b></label>
+                            </td>
+                            <td>
+                             <input type="email" name="email" placeholder="uw email">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td id="eerste">
+                                <label for="bericht"><b>Uw bericht:</b>
+                            </td>
+                            <td>
+                                <textarea name="bericht" maxlength="1500" placeholder="uw bericht"></textarea>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td id="blanco" colspan="2">&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" id="button">
+                                <button type="submit" name="verzendknop">
+                                    <strong>Verzend</strong>
+                                </button>
+                            </td>
+                        </tr>
+                   </table>
+                   <br>
+                </fieldset>
+            </form>
+         </div>
+        <footer>
+            &copy; HobbyLion 2026       
+        </footer>    
+    </body>
+</html>
